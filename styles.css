@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #2c3e50;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+#description {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #ff0066;
+    text-shadow: 0 0 10px #ff0066, 0 0 20px #ff0066;
+}
+
+#heat-map {
+    margin: 0 auto;
+}
+
+.cell {
+    stroke: #fff;
+    stroke-width: 1px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.cell:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#legend {
+    margin-top: 1rem;
+}
+
+#tooltip {
+    position: absolute;
+    text-align: center;
+    width: 160px;
+    padding: 10px;
+    background: #2c3e50;
+    color: #e0e0e0;
+    border-radius: 6px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: 1px solid #00ffcc;
+}
+
+footer {
+    margin-top: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
