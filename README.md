@@ -2,6 +2,8 @@
 
 ![Project Screenshot](coverheatmap.png) <!-- Add a screenshot of your project here -->
 
+Live Demo: [https://eddieborbon.github.io/Heat-Map/ ](https://eddieborbon.github.io/Heat-Map/)
+
 ## **Project Description**
 This project is an interactive heat map visualizing global land-surface temperature from **1753 to 2015**. Using the **D3.js** library, it provides a stunning visual representation of data, featuring a modern and futuristic design with neon colors and tech-inspired typography.
 
